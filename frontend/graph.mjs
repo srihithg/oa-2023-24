@@ -37,7 +37,12 @@ fetch("https://oa-dssd.onrender.com")
         },
       ],
       {
-        title: "Price vs Carat Size of Diamonds",
+        title: {
+          text: "Price vs Carat Size of Diamonds",
+          font: {
+            size: 24,
+          },
+        },
         xaxis: {
           title: "Carat Size",
         },
