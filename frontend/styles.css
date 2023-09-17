@@ -16,7 +16,7 @@ body {
   height: 100vh;
 }
 
-#graph {
+#graphbox {
   width: 80vw;
   height: 60vh;
   background-color: #fff;
@@ -24,6 +24,7 @@ body {
   border-radius: 5px;
   overflow: hidden;
   padding: 20px;
+  align-items: center;
 }
 
 h1 {

@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import path from "path";
 
 const app = express();
 
@@ -10,12 +11,7 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-  res
-    .send({
-      x: [1, 2, 3],
-      y: [4, 5, 6],
-    })
-    .status(200);
+  res.sendFile(path.join(process.cwd(), "data.csv")); //http everything is ok
 });
 
 const port = process.env.PORT || 3000;
