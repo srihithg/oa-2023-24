@@ -1,6 +1,6 @@
 const graphDiv = document.getElementById("graph");
 
-fetch("http://localhost:3000")
+fetch("https://oa-dssd.onrender.com")
   .then((response) => response.text())
   .then((data) => {
     const rows = data.split("\n");
