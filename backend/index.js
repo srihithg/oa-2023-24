@@ -6,7 +6,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://oa-dssd.onrender.com",
+    origin: "https://localhost:5500",
   })
 );
 
