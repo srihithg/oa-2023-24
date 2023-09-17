@@ -6,7 +6,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://localhost:5500",
+    origin: "http://localhost:5500",
   })
 );
 
